@@ -1,0 +1,14 @@
+---
+title: "Leaflet Intro"
+author: "Michael Harrison"
+date: "July 12, 2017"
+output: html_document
+---
+
+```{r}
+library(leaflet)
+my_map <- leaflet() %>%
+        addTiles()
+my_map
+```
+
